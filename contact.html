@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sea Moss Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   </head>
   <body>
     <!-- Header -->
@@ -12,26 +13,42 @@
       <!-- Navigation -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-          <a class="navbar-brand" href="#">Sea Moss</a>
+          <a class="navbar-brand" href="index.html">J&K Sea Moss</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-home"></i> Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="shop.html" id="navbarDropdownShop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-store"></i> Shop
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownShop">
+                  <li><a class="dropdown-item" href="#">Category 1</a></li>
+                  <li><a class="dropdown-item" href="#">Category 2</a></li>
+                  <li><a class="dropdown-item" href="#">Category 3</a></li>
+                  <li><a class="dropdown-item" href="#">Category 4</a></li>
+                </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="shop.html">Shop</a>
+                <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
+                <a class="nav-link" href="blog.html"><i class="fas fa-blog"></i> Blog</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="learn-more.html">Learn More</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="learn-more.html" id="navbarDropdownLearnMore" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-info-circle"></i> Learn More
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownLearnMore">
+                  <li><a class="dropdown-item" href="#">Benefits</a></li>
+                  <li><a class="dropdown-item" href="#">Recipes</a></li>
+                  <li><a class="dropdown-item" href="#">Nutritional Info</a></li>
+                  <li><a class="dropdown-item" href="#">How It's Made</a></li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -44,57 +61,92 @@
 
 
 
+<div class="container my-4">
+
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+        </ol>
+      </nav>
+</div>
+
+
 <main class="container my-5">
-  <div class="row">
-    <div class="col-md-8">
-      <h1>Contact Us</h1>
-      <form>
-        <div class="mb-3">
-          <label for="name" class="form-label">Name</label>
-          <input type="text" class="form-control" id="name" required>
+    <h1 class="card-title mb-4">Contact J&K Sea Moss, LLC</h1>
+    <p>Please give us 24 hours to reply to all questions.</p>
+</main>
+
+<main class="container my-5">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="https://placehold.co/400x400" class="img-fluid" alt="Contact Us Image" style="max-width: 100%; height: auto;">
         </div>
-        <div class="mb-3">
-          <label for="email" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="email" required>
-        </div>
-        <div class="mb-3">
-          <label for="message" class="form-label">Message</label>
-          <textarea class="form-control" id="message" rows="5" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-    </div>
-    <div class="col-md-4">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Quick Links</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link 1</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link 2</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link 3</a>
-            </li>
-          </ul>
+        <div class="col-md-8">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
       </div>
-    </div>
-  </div>
 </main>
 
 
 
 
 
-
       <!-- Footer -->
-      <footer class="bg-light text-center py-3">
+      <footer class="bg-light text-center py-4">
         <div class="container">
-          <p>&copy; 2024 Jay Singh. All rights reserved.</p>
-          <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a>
+          <div class="row">
+            <div class="col-md-6 text-start">
+              <p>J&K Sea Moss<br>
+              &copy; 2024 by Jay Singh<br>
+              <a href="#" class="me-2">Terms of Service</a> | <a href="#" class="ms-2">Privacy Policy</a></p>
+              <div class="social-icons">
+                <a href="#" class="me-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="me-2"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="me-2"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="me-2"><i class="fab fa-facebook-f"></i></a>
+              </div>
+            </div>
+            <div class="col-md-6 text-start">
+              <nav>
+                <ul class="list-unstyled d-flex justify-content-start flex-wrap">
+                  <li class="mx-2"><a class="nav-link" href="index.html">Home</a></li>
+                  <li class="mx-2"><a class="nav-link" href="shop.html">Shop</a>
+                    <ul class="list-unstyled">
+                      <li><a class="nav-link" href="#">Category 1</a></li>
+                      <li><a class="nav-link" href="#">Category 2</a></li>
+                      <li><a class="nav-link" href="#">Category 3</a></li>
+                      <li><a class="nav-link" href="#">Category 4</a></li>
+                    </ul>
+                  </li>
+                  <li class="mx-2"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                  <li class="mx-2"><a class="nav-link" href="blog.html">Blog</a></li>
+                  <li class="mx-2"><a class="nav-link" href="learn-more.html">Learn More</a>
+                    <ul class="list-unstyled">
+                      <li><a class="nav-link" href="#">Benefits</a></li>
+                      <li><a class="nav-link" href="#">Recipes</a></li>
+                      <li><a class="nav-link" href="#">Nutritional Info</a></li>
+                      <li><a class="nav-link" href="#">How It's Made</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
         </div>
       </footer>
   
