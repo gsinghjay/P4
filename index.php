@@ -15,7 +15,7 @@
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
       <div class="card">
-        <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+        <img src="https://placehold.co/150x150" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Product               1</h5>
           <p class="card-text">Sample text for product 1. Discover the amazing benefits of sea moss with our premium gel.</p>
@@ -24,7 +24,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+        <img src="https://placehold.co/150x150" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Product 2</h5>
           <p class="card-text">Sample text for product 2. Our sea moss soap cleanses and revitalizes your skin.</p>
@@ -33,7 +33,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+        <img src="https://placehold.co/150x150" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Product 3</h5>
           <p class="card-text">Sample text for product 3. Explore the variety of flavors in our sea moss gel collection.</p>
@@ -45,7 +45,7 @@
   <div class="row row-cols-1 row-cols-md-3 g-4 my-4">
     <div class="col">
       <div class="card">
-        <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+        <img src="https://placehold.co/150x150" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Product 4</h5>
           <p class="card-text">Sample text for product 4. Premium sea moss soap for a refreshing experience.</p>
@@ -54,7 +54,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+        <img src="https://placehold.co/150x150" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Product 5</h5>
           <p class="card-text">Sample text for product 5. Nutritious sea moss gel, a perfect addition to any diet.</p>
@@ -63,7 +63,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+        <img src="https://placehold.co/150x150" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Product 6</h5>
           <p class="card-text">Sample text for product 6. Explore our collection for the best sea moss products.</p>
@@ -75,7 +75,7 @@
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
       <div class="card">
-        <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+        <img src="https://placehold.co/150x150" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Product 7</h5>
           <p class="card-text">Sample text for product 7. Discover the natural benefits of sea moss in skincare.</p>
@@ -84,7 +84,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+        <img src="https://placehold.co/150x150" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Product 8</h5>
           <p class="card-text">Sample text for product 8. Our sea moss gel is sourced from the cleanest waters.</p>
@@ -93,7 +93,7 @@
     </div>
     <div class="col">
       <div class="card">
-        <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+        <img src="https://placehold.co/150x150" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Product 9</h5>
           <p class="card-text">Sample text for product 9. Experience the best of nature with our sea moss products.</p>

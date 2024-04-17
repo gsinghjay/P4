@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <?php include 'includes/header.php'; ?>
 
-<div class="content-wrapper">
+<div class="content-wrapper" style="padding-top: 100px;">
   
 <?php 
 // Check if the form was submitted successfully
