@@ -10,30 +10,30 @@
             <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-home"></i> Home</a>
             </li>
             <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="shop.html" id="navbarDropdownShop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="shop.php" id="navbarDropdownShop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fas fa-store"></i> Shop
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownShop">
-                <li><a class="dropdown-item" href="shop.html">All Items</a></li>
+                <li><a class="dropdown-item" href="shop.php">All Items</a></li>
                 <li><a class="dropdown-item" href="#">Gel</a></li>
                 <li><a class="dropdown-item" href="#">Soap</a></li>
             </ul>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a>
+            <a class="nav-link" href="contact.php"><i class="fas fa-envelope"></i> Contact Us</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="blog.html"><i class="fas fa-blog"></i> Blog</a>
+            <a class="nav-link" href="blog.php"><i class="fas fa-blog"></i> Blog</a>
             </li>
             <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="learn-more.html" id="navbarDropdownLearnMore" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="learn-more.php" id="navbarDropdownLearnMore" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fas fa-info-circle"></i> Learn More
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownLearnMore">
-                <li><a class="dropdown-item" href="learn-more.html">Benefits</a></li>
-                <li><a class="dropdown-item" href="learn-more.html">Recipes</a></li>
-                <li><a class="dropdown-item" href="learn-more.html">Nutritional Info</a></li>
-                <li><a class="dropdown-item" href="learn-more.html">How It's Made</a></li>
+                <li><a class="dropdown-item" href="learn-more.php">Benefits</a></li>
+                <li><a class="dropdown-item" href="learn-more.php">Recipes</a></li>
+                <li><a class="dropdown-item" href="learn-more.php">Nutritional Info</a></li>
+                <li><a class="dropdown-item" href="learn-more.php">How It's Made</a></li>
             </ul>
             </li>
         </ul>

@@ -17,33 +17,33 @@
         </div>
 
       </div>
-      
+
       <div class="col-12 col-md-6">
         <nav class="nav nav-pills flex-column flex-md-row justify-content-md-start">
-          <a class="nav-link mx-2 mb-2 mb-md-0" href="index.html"><i class="fas fa-home"></i> Home</a>
+          <a class="nav-link mx-2 mb-2 mb-md-0" href="index.php"><i class="fas fa-home"></i> Home</a>
           <!-- Shop Dropdown -->
           <div class="nav-item dropdown mx-2 mb-2 mb-md-0">
-            <a class="nav-link dropdown-toggle" href="shop.html" id="navbarDropdownShop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="shop.php" id="navbarDropdownShop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="fas fa-store"></i> Shop
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownShop">
-                <li><a class="dropdown-item" href="shop.html">All Items</a></li>
-                <li><a class="dropdown-item" href="shop.html">Gel</a></li>
-                <li><a class="dropdown-item" href="shop.html">Soap</a></li>
+                <li><a class="dropdown-item" href="shop.php">All Items</a></li>
+                <li><a class="dropdown-item" href="shop.php">Gel</a></li>
+                <li><a class="dropdown-item" href="shop.php">Soap</a></li>
             </ul>
           </div>
-          <a class="nav-link mx-2 mb-2 mb-md-0" href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a>
-          <a class="nav-link mx-2 mb-2 mb-md-0" href="blog.html"><i class="fas fa-blog"></i> Blog</a>
+          <a class="nav-link mx-2 mb-2 mb-md-0" href="contact.php"><i class="fas fa-envelope"></i> Contact Us</a>
+          <a class="nav-link mx-2 mb-2 mb-md-0" href="blog.php"><i class="fas fa-blog"></i> Blog</a>
           <!-- Learn More Dropdown -->
           <div class="nav-item dropdown mx-2 mb-2 mb-md-0">
-            <a class="nav-link dropdown-toggle" href="learn-more.html" id="navbarDropdownLearnMore" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="learn-more.php" id="navbarDropdownLearnMore" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="fas fa-info-circle"></i> Learn More
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownLearnMore">
-              <li><a class="dropdown-item" href="learn-more.html">Benefits</a></li>
-              <li><a class="dropdown-item" href="learn-more.html">Recipes</a></li>
-              <li><a class="dropdown-item" href="learn-more.html">Nutritional Info</a></li>
-              <li><a class="dropdown-item" href="learn-more.html">How It's Made</a></li>
+              <li><a class="dropdown-item" href="learn-more.php">Benefits</a></li>
+              <li><a class="dropdown-item" href="learn-more.php">Recipes</a></li>
+              <li><a class="dropdown-item" href="learn-more.php">Nutritional Info</a></li>
+              <li><a class="dropdown-item" href="learn-more.php">How It's Made</a></li>
             </ul>
           </div>
         </nav>
