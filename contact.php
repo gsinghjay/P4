@@ -11,12 +11,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt = $conn->prepare("INSERT INTO contacts (name, email, message) VALUES (?, ?, ?)");
     $stmt->bind_param("sss", $name, $email, $message);
 
-    // Execute statement and check for success
-    if ($stmt->execute()) {
-        echo "Record saved successfully";
-    } else {
-        echo "Error: " . $stmt->error;
-    }
+  // Set session variable to indicate form was submitted successfully
+  if ($stmt->execute()) {
+      $_SESSION['form_submitted'] = true;
+  } else {
+      echo "Error: " . $stmt->error;
+  }
 
     $stmt->close();
     $conn->close();
@@ -26,6 +26,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <?php include 'includes/header.php'; ?>
 
 <div class="content-wrapper">
+  
+<?php 
+// Check if the form was submitted successfully
+if (isset($_SESSION['form_submitted']) && $_SESSION['form_submitted']): ?>
+  <div class="alert alert-success alert-dismissible fade show" role="alert">
+    Your message has been sent successfully.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+  <?php 
+  // Unset the session variable to prevent the message from showing again on refresh
+  unset($_SESSION['form_submitted']); ?>
+<?php endif; ?>
 
 <div class="container my-4">
 
@@ -36,7 +48,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </ol>
       </nav>
 </div>
-
 
 <main class="container my-5">
     <h1 class="card-title mb-4">Contact J&K Sea Moss, LLC</h1>
