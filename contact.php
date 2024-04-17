@@ -1,3 +1,28 @@
+<?php
+include 'includes/db.php'; // Include database configuration
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Collect post data
+    $name = $conn->real_escape_string($_POST['name']);
+    $email = $conn->real_escape_string($_POST['email']);
+    $message = $conn->real_escape_string($_POST['message']);
+
+    // Prepare SQL statement to prevent SQL injection
+    $stmt = $conn->prepare("INSERT INTO contacts (name, email, message) VALUES (?, ?, ?)");
+    $stmt->bind_param("sss", $name, $email, $message);
+
+    // Execute statement and check for success
+    if ($stmt->execute()) {
+        echo "Record saved successfully";
+    } else {
+        echo "Error: " . $stmt->error;
+    }
+
+    $stmt->close();
+    $conn->close();
+}
+?>
+
 <?php include 'includes/header.php'; ?>
 
 <div class="content-wrapper">
@@ -24,7 +49,9 @@
           <img src="https://placehold.co/400x400" class="img-fluid" alt="Contact Us Image" style="max-width: 100%; height: auto;"><br><br>
         </div>
         <div class="col-md-8">
-          <form>
+
+
+          <form action="contact.php" method="post">
             <div class="mb-3">
               <label for="name" class="form-label">Name</label>
               <input type="text" class="form-control" id="name" required>
@@ -39,6 +66,9 @@
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
+
+
+          
         </div>
       </div>
 </main>
