@@ -19,6 +19,6 @@
   </head>
   <body>
     <header>
-        <?php include 'includes/nav.php'; ?>
+        <?php include 'nav.php'; ?>
     </header>
 

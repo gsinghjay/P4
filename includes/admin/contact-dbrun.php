@@ -1,5 +1,5 @@
 <?php
-include 'includes/db.php'; // Include your database configuration file
+include '../db.php'; // Include your database configuration file
 
 // SQL to create table
 $sql = "CREATE TABLE IF NOT EXISTS contacts (
